@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+}
+
+/* header */
+.header{
+    width: 100%;
+    background-color: rgb(19, 91, 155);
+}
+
+.header1{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(19, 91, 155) ;
+}
+
+.header1 img{
+    width: 10%;
+    height: 10%;
+    background-color: rgb(19, 91, 155);
+}
+/* end */
+
+/* navbar */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(19, 91, 155) ;
+}
+
+.navbar a{
+    color: white;
+    padding-top: 10px;
+    margin: 15px;
+    overflow: hidden;
+    margin-top: -10px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+/* end */
+
+/* home */
+
+.home-col{
+    width: 100%;
+    background-color: rgb(19, 91, 155);
+}
+
+.home-col .home{
+    display: flex;
+    justify-content: right;
+}
+
+.home-col .home .home1 img{
+    width: 400px;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    margin-top: 20px;
+    border-radius: 50px;
+
+}
+
+.home-col .home  .home2 h1{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 150px  ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px lightskyblue;
+}
+
+.home-col .home .home2 p{
+    color: white;
+    text-decoration: none;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+/* end */
+
+/* about */
+
+.about{ 
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.about .about-1 h1{
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.about .about-1 p{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+/* end */
+
+/* about */
+
+.produk{
+    width: 100%;
+}
+
+.produk-h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.produk2{
+    display: flex;
+    justify-content: center;
+}
+.produk2 img{
+    width: 150px;
+    height: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+
+}
+/* end */
+
+
+/* video and map */
+
+.videomap{
+    justify-content: center;
+    display: flex;
+}
+
+/* login */
+.login{
+    display: flex;
+    justify-content: center;
+}
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+/* end */
+
+/* footer */
+
+.footer{
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+}
+
+.text-footer p{
+    color: white;
+    text-align: center;
+}
+
+      
+/* end */
+
+
